@@ -2,9 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de registro - Mi web</title>
 </head>
 <body>
-    <form action=""></form>
+    <form method="get" action="" >
+        <h1>Formulario de registro</h1>
+        Nombre: <input type="text" name="nombre" id="nombre1" value="Ingrese su nombre" size="50">
+        <br><br>
+        Apellido: <input type="text" name="apellido" id="apellido1" value="Ingrese su apellido" size="50">
+        <br><br>
+        Sexo: <input type="radio" name="sexo" id="sexo1" value="Masculino"> Masculino <input type="radio" name="sexo" id="sexo2" value="Femenino"> Femenino <input type="radio" name="sexo" id="sexo3" value="No Binario"> No Binario
+        <br><br>
+        Estado civil: <select name="Estado_civil" id="Estado_civil">
+            <option value="Soltero">Soltero</option>
+            <option value="Casado">Casado</option>
+            <option value="Divorciado">Divorciado</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="info" id="info" checked> Deseo recibir informacion sobre novedades y ofertas
+        <br><br>
+        <input type="checkbox" name="condiciones" id="condiciones"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>

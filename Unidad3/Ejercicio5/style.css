@@ -1,0 +1,9 @@
+body {
+    margin: 20px;
+}
+a {
+    border-radius: 9px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}

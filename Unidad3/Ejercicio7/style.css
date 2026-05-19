@@ -1,0 +1,17 @@
+li {
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+}
+ul {
+    float: left;
+    background-color: gray;
+    border: 2px, solid black;
+    width: 96%;
+    margin: 10px;
+    padding: 10px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
